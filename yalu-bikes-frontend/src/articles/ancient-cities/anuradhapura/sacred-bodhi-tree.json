@@ -1,0 +1,32 @@
+{
+  "id": "sacred-bodhi-tree",
+  "title": "The Sacred Bodhi Tree",
+  "summary": "Oldest human-planted tree in the world with 2300+ years of history",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "The Sri Maha Bodhi in Anuradhapura is a sacred fig tree that is said to be a sapling from the historical Bodhi tree under which Buddha attained enlightenment. Planted in 288 BCE, it is the oldest living human-planted tree in the world with a known planting date."
+    },
+    {
+      "type": "image",
+      "src": "/images/ancient-cities/anuradhapura/bodhi-tree.jpg",
+      "alt": "Sacred Bodhi Tree in Anuradhapura",
+      "caption": "The sacred tree is protected by golden fences and receives daily worship"
+    },
+    {
+      "type": "paragraph",
+      "text": "The tree was brought to Sri Lanka by Sangamitta Theri, daughter of Emperor Ashoka, and has been carefully protected for over 23 centuries. It's considered one of the most sacred relics in the Buddhist world."
+    }
+  ],
+  "metadata": {
+    "author": "YaluBikes Team",
+    "published": "2023-06-15",
+    "tags": ["religious", "historical", "buddhist"],
+    "readingTime": "3 min",
+    "location": {
+      "lat": 8.3447,
+      "lng": 80.3969
+    }
+  },
+  "relatedArticles": ["ruwanwelisaya-stupa", "jetavanaramaya"]
+}

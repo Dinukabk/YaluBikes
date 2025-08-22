@@ -1,0 +1,31 @@
+{
+  "city": "Anuradhapura",
+  "description": "Ancient capital of Sri Lanka with rich Buddhist heritage dating back to 4th century BCE",
+  "featuredImage": "/images/ancient-cities/anuradhapura/main.jpg",
+  "articles": [
+    {
+      "id": "sacred-bodhi-tree",
+      "title": "The Sacred Bodhi Tree",
+      "summary": "Oldest human-planted tree in the world with 2300+ years of history",
+      "image": "/images/ancient-cities/anuradhapura/bodhi-tree.jpg",
+      "date": "2023-06-15",
+      "author": "YaluBikes Team"
+    },
+    {
+      "id": "ruwanwelisaya-stupa",
+      "title": "Ruwanwelisaya Stupa",
+      "summary": "Magnificent Buddhist stupa built in 140 BCE",
+      "image": "/images/ancient-cities/anuradhapura/stupa.jpg",
+      "date": "2023-06-20",
+      "author": "YaluBikes Team"
+    },
+    {
+      "id": "jetavanaramaya",
+      "title": "Jetavanaramaya Monastery",
+      "summary": "One of the tallest ancient stupas in the world",
+      "image": "/images/ancient-cities/anuradhapura/stupa.jpg",
+      "date": "2023-06-25",
+      "author": "YaluBikes Team"
+    }
+  ]
+}

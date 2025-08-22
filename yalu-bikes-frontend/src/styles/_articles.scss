@@ -1,0 +1,267 @@
+.article-card {
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: white;
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  h3 {
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    line-height: 1.4;
+  }
+  
+  p {
+    margin: 0 1rem 1rem;
+    color: #6c757d;
+    line-height: 1.5;
+  }
+}
+
+.article-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+  .article-header {
+    margin-bottom: 2rem;
+    
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+    
+    .article-meta {
+      display: flex;
+      gap: 1rem;
+      color: #6c757d;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      
+      .author {
+        font-weight: 500;
+      }
+      
+      .reading-time {
+        background: #e9ecef;
+        padding: 0.25rem 0.5rem;
+        border-radius: 12px;
+      }
+    }
+    
+    .article-tags {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      
+      .tag {
+        background: #007bff;
+        color: white;
+        padding: 0.25rem 0.75rem;
+        border-radius: 15px;
+        font-size: 0.8rem;
+      }
+    }
+  }
+  
+  .article-body {
+    line-height: 1.8;
+    font-size: 1.1rem;
+    
+    p {
+      margin-bottom: 1.5rem;
+      color: #2c3e50;
+    }
+    
+    .article-image {
+      margin: 2rem 0;
+      text-align: center;
+      
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      }
+      
+      figcaption {
+        margin-top: 0.5rem;
+        color: #6c757d;
+        font-style: italic;
+        font-size: 0.9rem;
+      }
+    }
+    
+    .article-quote {
+      border-left: 4px solid #007bff;
+      padding-left: 1.5rem;
+      margin: 2rem 0;
+      font-style: italic;
+      color: #2c3e50;
+      
+      cite {
+        display: block;
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        color: #6c757d;
+        font-style: normal;
+      }
+    }
+  }
+}
+
+.city-articles-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .no-articles {
+    text-align: center;
+    padding: 3rem;
+    color: #6c757d;
+    
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.related-articles {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e9ecef;
+  
+  h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .related-article {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background: #e9ecef;
+      transform: translateY(-2px);
+    }
+    
+    h4 {
+      color: #2c3e50;
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+    
+    p {
+      color: #6c757d;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+  }
+}
+
+.ancient-cities-layout {
+  .ancient-cities-content {
+    min-height: calc(100vh - 200px);
+  }
+}
+
+.loading-spinner {
+  text-align: center;
+  padding: 3rem;
+  
+  .spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+    
+    &.spinner-small {
+      width: 20px;
+      height: 20px;
+      border-width: 2px;
+    }
+    
+    &.spinner-large {
+      width: 60px;
+      height: 60px;
+      border-width: 6px;
+    }
+  }
+  
+  .loading-text {
+    color: #6c757d;
+    font-size: 1.1rem;
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-page {
+  text-align: center;
+  padding: 3rem;
+  color: #dc3545;
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+
+.not-found {
+  text-align: center;
+  padding: 3rem;
+  color: #6c757d;
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+}

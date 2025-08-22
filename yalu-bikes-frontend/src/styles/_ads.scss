@@ -1,0 +1,146 @@
+.ad-container {
+  margin: 1.5rem 0;
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  
+  ins {
+    display: block;
+    min-height: 90px;
+  }
+  
+  &.article-ad {
+    margin: 2rem 0;
+    background: transparent;
+  }
+}
+
+.sticky-sidebar-ad {
+  position: fixed;
+  right: -320px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  
+  &.visible {
+    right: 20px;
+  }
+  
+  .ad-content {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    position: relative;
+    
+    h5 {
+      color: #666;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+    
+    .close-btn {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: #999;
+      
+      &:hover {
+        color: #333;
+      }
+    }
+  }
+}
+
+.video-ad-container {
+  position: relative;
+  margin: 2rem 0;
+  max-width: 800px;
+  
+  .video-ad {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #000;
+  }
+  
+  .skip-btn {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    &:hover {
+      background: rgba(0,0,0,0.7);
+    }
+  }
+  
+  .ad-label {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+  }
+}
+
+.ad-block-warning {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  
+  .warning-content {
+    text-align: center;
+    
+    h3 {
+      color: #856404;
+      margin-bottom: 0.5rem;
+    }
+    
+    p {
+      color: #856404;
+      margin-bottom: 1rem;
+    }
+    
+    button {
+      background: #856404;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      
+      &:hover {
+        background: #6c4f04;
+      }
+    }
+  }
+}
+
+.ad-astra-container {
+  .ad-astra-placeholder {
+    min-height: 250px;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+  }
+}
