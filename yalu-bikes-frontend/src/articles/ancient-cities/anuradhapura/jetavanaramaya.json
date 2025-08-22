@@ -1,0 +1,36 @@
+{
+  "id": "jetavanaramaya",
+  "title": "Jetavanaramaya Monastery Complex",
+  "summary": "One of the tallest ancient stupas in the world and a center of Buddhist learning",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Jetavanaramaya is a magnificent Buddhist stupa located in the ruins of Jetavana Monastery in Anuradhapura. Built in the 3rd century CE by King Mahasena, it was once the third tallest structure in the ancient world, surpassed only by the Egyptian pyramids of Giza."
+    },
+    {
+      "type": "image",
+      "src": "/images/ancient-cities/anuradhapura/stupa.jpg",
+      "alt": "Jetavanaramaya Stupa",
+      "caption": "The massive brick structure of Jetavanaramaya stupa"
+    },
+    {
+      "type": "paragraph",
+      "text": "The stupa originally stood at 122 meters (400 feet) and had a diameter of 113 meters (370 feet) at the base. Its foundation goes 8.5 meters deep to support the enormous weight. The monastery around the stupa could accommodate over 3,000 Buddhist monks and was a major center of Theravada Buddhism learning."
+    },
+    {
+      "type": "paragraph",
+      "text": "The construction used approximately 93.3 million baked bricks, demonstrating advanced engineering skills. The bricks were specially designed with holes to reduce weight while maintaining structural integrity."
+    }
+  ],
+  "metadata": {
+    "author": "YaluBikes Historical Team",
+    "published": "2023-06-25",
+    "tags": ["monastery", "buddhist", "architecture", "historical"],
+    "readingTime": "3 min",
+    "location": {
+      "lat": 8.3522,
+      "lng": 80.4075
+    }
+  },
+  "relatedArticles": ["sacred-bodhi-tree", "ruwanwelisaya-stupa"]
+}

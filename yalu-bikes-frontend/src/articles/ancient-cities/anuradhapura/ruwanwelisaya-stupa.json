@@ -1,0 +1,37 @@
+{
+  "id": "ruwanwelisaya-stupa",
+  "title": "Ruwanwelisaya Stupa - The Great Stupa",
+  "summary": "Magnificent Buddhist stupa built in 140 BCE, one of the world's most sacred monuments",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "The Ruwanwelisaya is a stupa in Anuradhapura, Sri Lanka, considered a marvel of ancient engineering and a masterpiece of Buddhist architecture. Built by King Dutugemunu in 140 BCE, it stands as one of the tallest ancient monuments in the world and remains an active place of worship."
+    },
+    {
+      "type": "image",
+      "src": "/images/ancient-cities/anuradhapura/stupa.jpg",
+      "alt": "Ruwanwelisaya Stupa in Anuradhapura",
+      "caption": "The magnificent white dome of Ruwanwelisaya against the Sri Lankan sky"
+    },
+    {
+      "type": "paragraph",
+      "text": "The stupa measures 103 meters (338 feet) in height with a circumference of 290 meters (951 feet). Its perfect hemispherical shape represents the bubble-like nature of existence in Buddhist philosophy. The construction used over 1.8 million baked bricks and features elaborate stone carvings, moonstones, and guard stones."
+    },
+    {
+      "type": "quote",
+      "text": "The Ruwanwelisaya is not just a monument; it is a living testament to the devotion and engineering prowess of ancient Sri Lanka.",
+      "author": "Dr. Senaka Bandaranayake, Archaeologist"
+    }
+  ],
+  "metadata": {
+    "author": "YaluBikes Historical Team",
+    "published": "2023-06-20",
+    "tags": ["buddhist", "architecture", "historical", "religious"],
+    "readingTime": "4 min",
+    "location": {
+      "lat": 8.3500,
+      "lng": 80.3967
+    }
+  },
+  "relatedArticles": ["sacred-bodhi-tree", "jetavanaramaya"]
+}

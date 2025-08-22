@@ -1,0 +1,23 @@
+{
+  "city": "Sigiriya",
+  "description": "Ancient rock fortress and palace with stunning frescoes and water gardens",
+  "featuredImage": "/images/ancient-cities/sigiriya/main.jpg",
+  "articles": [
+    {
+      "id": "frescoes",
+      "title": "Sigiriya Frescoes - Ancient Masterpieces",
+      "summary": "Beautiful ancient paintings of celestial maidens",
+      "image": "/images/ancient-cities/sigiriya/frescoes.jpg",
+      "date": "2023-07-20",
+      "author": "YaluBikes Team"
+    },
+    {
+      "id": "lion-staircase",
+      "title": "Lion's Paw Staircase",
+      "summary": "Magnificent entrance to the rock fortress",
+      "image": "/images/ancient-cities/sigiriya/lion-paw.jpg",
+      "date": "2023-07-25",
+      "author": "YaluBikes Team"
+    }
+  ]
+}
